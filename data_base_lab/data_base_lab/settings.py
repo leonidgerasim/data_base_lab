@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'data_base_lab.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Database1',          # Название вашей базы данных
+        'NAME': 'lab_db',          # Название вашей базы данных
         'USER': 'postgres',          # Имя пользователя базы данных
         'PASSWORD': '310177',  # Пароль пользователя базы данных
         'HOST': '::1',             # Хост базы данных (например, 'localhost')
